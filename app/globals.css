@@ -1,6 +1,46 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Voltaire&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.main {
+  padding-top: 125px;
+  padding-bottom:50px;
+  margin-right:5%;
+  margin-left:5%;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: fixed;
+  top:0;  
+  min-width: 100%;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item {
+  font-family: 'Akshar', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  column-gap: 2rem;
+  margin: 1%;
+}
+
+.nav-item a:hover {
+  color: #73a6f7; 
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -8,9 +48,9 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --foreground-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
@@ -18,10 +58,30 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: white;
+  max-width: 100%;
+  font-family: 'Freight Display Pro', serif, medium;
+  font-size: 12px;
+  line-height: Auto;
+}
+
+.footer{
+  display: flex;
+  font-family: 'Pathway Gothic One', sans-serif;
+  align-items: top;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #242424;
+  padding: 2%;
+  min-width: 100%;
+  bottom: 0;
+}
+
+.footer-item {
+  color: white;
+  font-size: 14px;  
+}
+
+.footer-item a:hover {
+  color: #73a6f7; 
 }
