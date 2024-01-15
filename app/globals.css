@@ -29,7 +29,7 @@
 
 .nav-item {
   font-family: 'Akshar', sans-serif;
-  font-size: 28px;
+  font-size: 24px;
   text-transform: uppercase;
   display: flex;
   align-items: center;
@@ -60,15 +60,28 @@ body {
   color: rgb(var(--foreground-rgb));
   background: white;
   max-width: 100%;
-  font-family: 'Freight Display Pro', serif, medium;
+  font-family: 'Inter', sans-serif;
   font-size: 12px;
   line-height: Auto;
 }
 
+h1{
+  font-family: 'Akshar', sans-serif;
+  font-size: 24px;
+}
+
+h2{
+  font-family: 'Akshar', sans-serif;
+  font-size: 20px;
+}
+
+h3{
+  font-family: 'Akshar', sans-serif;
+  font-size: 16px;
+}
+
 .footer{
   display: flex;
-  font-family: 'Pathway Gothic One', sans-serif;
-  align-items: top;
   justify-content: space-around;
   flex-wrap: wrap;
   background-color: #242424;
@@ -78,8 +91,9 @@ body {
 }
 
 .footer-item {
+  font-family: 'Inter', sans-serif; 
+  font-size: 14px;
   color: white;
-  font-size: 14px;  
 }
 
 .footer-item a:hover {

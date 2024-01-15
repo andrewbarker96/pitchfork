@@ -1,18 +1,19 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
         <div>
-                <div className='footer md:flex-auto gap-6 '>
+                <div className='footer gap-6 '>
                     <div className='footer-item '>
-                        <p><a href="#">Menu</a></p>
-                        <p><a href="#">Contact Us</a></p>
-                        <p><a href="#">Reservations</a></p>
+                        <Link href="/menu">Menu</Link><br></br>
+                        <Link href="/contact">Contact Us</Link><br></br>
+                        <Link href="/reservations">Reservations</Link>
                     </div>
                     <div className='footer-item'>
-                        <p><a href="#">Terms of Use</a></p>
-                        <p><a href="#">Privacy Policy</a></p>
-                        <p><a href="#">Cookie Policy</a></p>
+                        <Link href="#">Terms of Use</Link>
+                        <Link href="#">Privacy Policy</Link>
+                        <Link href="#">Cookie Policy</Link>
                     </div>
                 </div>
             <div className='footer footer-item align-middle text-center justify-center'>
