@@ -99,3 +99,8 @@ h3{
 .footer-item a:hover {
   color: #73a6f7; 
 }
+
+.form {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
