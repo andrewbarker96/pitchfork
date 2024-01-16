@@ -1,5 +1,5 @@
 import React from 'react'
-import RootLayout from '@/layout'
+import RootLayout from '@/app/layout'
 
 const OrderOnline = () => {
   return (

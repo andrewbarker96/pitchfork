@@ -1,5 +1,5 @@
 import React from 'react'
-import RootLayout from '@/layout'
+import RootLayout from '@/app/layout'
 import ReservationForm from '@/components/reservation-form'
 import Link from 'next/link'
 
