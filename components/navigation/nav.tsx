@@ -21,7 +21,7 @@ const Navbar = () => {
         <div className={`${isOpen ? 'block' : 'hidden'} md:flex nav-item`}>
           <Link href='/'>Home</Link>
           <Link href='/menu'>Menu</Link>
-          <Link href='/order-online'>Order Online</Link>
+          <Link href='/#'>Order Online</Link>
           <Link href='/reservations'>Reservations</Link>
         </div>
       </nav>

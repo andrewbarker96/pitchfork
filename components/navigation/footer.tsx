@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='footer footer-item align-middle text-center justify-center'>
-                <p> Copyright &copy; <Link href = '/'>2024 Pitchfork Eatery</Link></p>
+                <p> Copyright &copy; 2024 <Link href = '/'> Pitchfork Eatery</Link></p>
                 <p>123 Main Street, St. Louis, MO, 63011</p>
             </div>
         </div>

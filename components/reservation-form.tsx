@@ -24,10 +24,10 @@ const ReservationForm = () => {
                 <TextField label="Phone Number" fullWidth/>
             </div>
             <div className = 'form'>
-                <DatePicker label="Date of Reservation"/>
+                <DatePicker label="Date of Reservation" slotProps={{ textField: { fullWidth: true } }}/>
             </div>
             <div className = 'form'>
-                <TimePicker label="Time of Reservation"/>
+                <TimePicker label="Time of Reservation" slotProps={{ textField: { fullWidth: true } }}/>
             </div>
             <div className = 'form'>
                 <Button variant='contained'>Submit</Button>
