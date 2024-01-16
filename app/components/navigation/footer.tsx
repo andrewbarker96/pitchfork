@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='footer footer-item align-middle text-center justify-center'>
-                <p> Copyright &copay; <a href = '/'>2024 Pitchfork Eatery</a></p>
+                <p> Copyright &copy; <a href = '/'>2024 Pitchfork Eatery</a></p>
             </div>
         </div>
     )
