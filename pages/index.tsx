@@ -1,4 +1,4 @@
-import RootLayout from "@/app/layout"
+import RootLayout from "@/layout"
 import React from "react"
 
 export default function HomePage() {
