@@ -1,8 +1,8 @@
 'use client'
 
 import Head from 'next/head'
-import { Navbar } from './navigation/nav'
-import Footer from './navigation/footer'
+import { Navbar } from './components/navigation/nav'
+import Footer from './components/navigation/footer'
 import './globals.css'
 
 interface RootLayoutProps {
