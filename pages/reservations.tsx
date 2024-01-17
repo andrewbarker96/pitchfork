@@ -20,15 +20,13 @@ const reservations = () => {
     <RootLayout>
     <Box sx={{ flexGrow: 1 }}>
       <Grid container spacing={2}>
-        <Grid item xs={6}>
-            <h1>Make a Reservation!</h1>
-            <Item>
-              <ReservationForm />
-            </Item>
-        </Grid>
-        <Grid item xs={6}>      
-            <h1>No times available?</h1>
-            <h2>Call us at <Link href="tel:+15555555555" style = {{color: 'blue'}}>555-555-5555</Link> to make a reservation!</h2>
+      <Grid item xs={12} sm={12} md={8}>
+          <h1>Make a Reservation!</h1>
+          <ReservationForm />
+      </Grid>
+        <Grid item xs={12} sm={12} md={4}>
+          <h1>No times available?</h1>
+          <h2>Call us at <Link href="tel:+15555555555" style = {{color: 'blue'}}>555-555-5555</Link> to make a reservation!</h2>
         </Grid>
       </Grid>
     </Box>

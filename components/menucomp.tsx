@@ -24,7 +24,7 @@ const MenuComp = () => {
           <h1>Our Menu</h1>
           <p>Indulge in the delightful flavors of our upscale country dishes.</p>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={12} md={4}>
           <h1>Appetizers</h1>
             <Item>
               <h2>Truffle Mushroom Risotto</h2>
@@ -44,7 +44,7 @@ const MenuComp = () => {
               <p>$18.99</p>
             </Item>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={12} md={4}>
           <h1>Main Course</h1>
             <Item>
               <h2>Grilled Ribeye Steak</h2>
@@ -64,7 +64,7 @@ const MenuComp = () => {
               <p>$17.99</p>
             </Item>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={12} md={4}>
           <h1>Dessert</h1>
             <Item>
               <h2>Chocolate Bourbon Pecan Pie</h2>
