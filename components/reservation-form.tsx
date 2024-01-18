@@ -36,12 +36,12 @@ const ReservationForm = () => {
                         <Grid item xs={12} sm={6} md={6}>
                             <TextField label="Phone Number" fullWidth/>
                         </Grid>
-                        <Grid item xs={12} sm={6} md={6}>
+                        {/* <Grid item xs={12} sm={6} md={6}>
                             <DatePicker label="Date of Reservation" slotProps={{ textField: { fullWidth: true } }}/>
                         </Grid>
                         <Grid item xs={12} sm={6} md={6}>
                             <TimePicker label="Time of Reservation" slotProps={{ textField: { fullWidth: true } }}/>
-                        </Grid>
+                        </Grid> */}
                         <Grid item xs={12} sm={6} md={6}>
                             <Button variant='contained'>Submit</Button>
                         </Grid>

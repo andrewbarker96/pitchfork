@@ -76,7 +76,6 @@ export default function ImageSkeleton() {
   return (
     <Box sx={{ overflow: 'hidden' }}>
       <Media loading />
-      <Media />
     </Box>
   );
 }

@@ -6,9 +6,20 @@
 
 .main {
   padding-top: 125px;
-  padding-bottom:50px;
-  margin-right:5%;
-  margin-left:5%;
+  padding-bottom: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-right: 7.5%;
+    margin-left: 7.5%;
+    text-align: justify;
+    justify-content: center;
+    align-content: center;
+  }
 }
 
 .navbar {
@@ -81,18 +92,50 @@ h3{
 }
 
 .footer{
-  display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   background-color: #242424;
   padding: 2%;
-  min-width: 100%;
   bottom: 0;
 }
 
+/* @media (min-width: 500px) {
+  .footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #242424;
+    padding: 2%;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 499px) {
+  .footer {
+    justify-content: space-evenly;
+    background-color: #242424;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top:4%;
+    padding-bottom:4%;
+    bottom: 0;
+  }
+} */
+
+.copyright{
+  background-color: #212121;
+  padding: 2%;
+  min-width: 100%;
+  bottom: 0;
+  font-family: 'Inter',sans-serif;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+}
+
 .footer-item {
-  font-family: 'Inter', sans-serif; 
-  font-size: 14px;
+  font-family: 'Akshar', sans-serif; 
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
   color: white;
 }
 
