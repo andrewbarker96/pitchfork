@@ -39,7 +39,7 @@ const Reservations = () => {
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <h1>Jump in Line Now!</h1>
-            <p>Get your name on the list now so you don't have to wait here!</p>
+            <p>Get your name on the list and skip the line!</p>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
             <ReservationForm />

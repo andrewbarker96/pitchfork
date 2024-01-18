@@ -19,26 +19,25 @@ const Item = styled(Paper)(({ theme }) => ({
 const Footer = () => {
     return (
         <Box>
-            <Grid container spacing={2} className = 'footer justify-center align-middle'>
-                <Grid item xs={12} sm={6} md={4} className = 'footer-item'>
+            <Grid container spacing={2} className='footer justify-center align-middle'>
+                <Grid item xs={12} sm={6} md={4} className='footer-item'>
                     <div><Link href="/menu">Menu</Link></div>
                     <div><Link href="/contact">Contact Us</Link></div>
                     <div><Link href="/reservations">Join the Waitlist</Link></div>
                 </Grid>
-                <Grid item xs={12} sm={6} md={4} className = 'footer-item'>
+                <Grid item xs={12} sm={6} md={4} className='footer-item'>
                     <div><Link href="#">Terms of Use</Link></div>
                     <div><Link href="#">Privacy Policy</Link></div>
                     <div><Link href="#">Cookie Policy</Link></div>
                 </Grid>
-                <Grid item xs={12} sm={12} md={4} className = 'footer-item'>
+                <Grid item xs={12} sm={12} md={4} className='footer-item'>
                     <Link href="https:www.facebook.com"><FacebookIcon /></Link>
                     <Link href="https:www.instagram.com"><InstagramIcon /></Link>
                 </Grid>
             </Grid>
-            <Grid container spacing = {2} className = 'copyright'>
+            <Grid container spacing={2} className='copyright'>
                 <Grid item xs={12} sm={12} md={12}>
-                    <div>© 2024 <Link href='/'>Pitchfork Eatery</Link></div>
-                    <div>123 Main Street, St. Louis, MO, 63011</div>
+                    <div>&copy; 2024 <Link href='/'>Pitchfork Eatery</Link></div>
                 </Grid>
             </Grid>
         </Box>
