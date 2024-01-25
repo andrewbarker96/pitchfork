@@ -21,7 +21,7 @@ const FooterLinkItem: React.FC<{ links: { href: string; text: string }[] }> = ({
           <FooterLinkItem links={[
             { href: "/menu", text: "Menu" },
             { href: "/contact", text: "Contact Us" },
-            { href: "/reservations", text: "Join the Waitlist" },
+            { href: "/waitlist", text: "Join the Waitlist" },
           ]} />
           <FooterLinkItem links={[
             { href: "#", text: "Terms of Use" },
