@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pitchfork Eatery
 
-## Getting Started
+## Web Design Project for Maryville University SWDV 620
 
-First, run the development server:
+Mock website design utilizing NextJS, React, HTML, Tailwind.CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Deployment
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<a href = 'https://pitchfork-eatery.vercel.app/' target='_blank'>pitchfork-eatery.vercel.app</a>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Image Usage Rights
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+All Images collected and published on this site were done so through <a href='https://unsplash.com/' target='_blank'>unsplash.com</a>.
 
-## Learn More
+Unsplash License:
 
-To learn more about Next.js, take a look at the following resources:
+    All photos can be downloaded and used for free.
+    Commercial and non-commercial purposes
+    No permission needed (though attribution is appreciated!)
+    
+    What is not permitted 👎
+        Photos cannot be sold without significant modification.
+        Compiling photos from Unsplash to replicate a similar or competing service.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Site Logo
+Logo design design by: <a href='andrewbarker.online' target='_blank'>Andrew Barker</a>. 

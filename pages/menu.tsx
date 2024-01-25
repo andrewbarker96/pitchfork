@@ -1,5 +1,5 @@
 import React from 'react'
-import MenuComp from '@/components/menucomp'
+import MenuComp from '@/components/full-menu'
 import RootLayout from '@/app/layout'
 
 const Menu = () => {

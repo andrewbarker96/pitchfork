@@ -26,6 +26,7 @@ const Navbar = () => {
               <li><Link href='/menu'>Menu</Link></li>
               {/* <li><Link href='/#'>Order Online</Link></li> */}
               <li><Link href='/waitlist'>Get in Line</Link></li>
+              <li>Hours</li>
             </ul>
           </div>
         </div>
