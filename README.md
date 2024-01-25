@@ -10,7 +10,7 @@ This site design is a simple design focused around a fictional restaurant. Withi
 
 ## Deployment
 
-Site can be found for preview by visiting:<a href = 'https://pitchfork-eatery.vercel.app/' target='_blank'>https://pitchfork-eatery.vercel.app</a>
+Site can be found for preview by visiting: <a href = 'https://pitchfork-eatery.vercel.app/' target='_blank'>pitchfork-eatery.vercel.app</a>
 
 ## Image Usage Rights
 
