@@ -4,7 +4,9 @@
 
 ### Project Overview:
 
-This project was tasked during Week 2 of SWDV-620. Part of the <a href='https://online.maryville.edu/online-masters-degrees/software-development/curriculum/' target='_blank'>Maryville University Master's Degree in Software Development</a>. The original scope of the project was to design a site with three pages utilizing HTML & CSS. Due to my background in Web Design (for more info about my background visit: <a href='https://andrewbarker.online' target='_blank'>andrewbarker.online</a> ), I wanted to take the project a step further by first designing within NextJS, utilizing React, Tailwind.CSS and Material UI (MUI) Components.
+This project was tasked during Week 2 of SWDV-620. Part of the <a href='https://online.maryville.edu/online-masters-degrees/software-development/curriculum/' target='_blank'>Maryville University Master's Degree in Software Development</a>.
+
+The original scope of the project was to design a site with three pages utilizing HTML & CSS. Though due to my background in Web Design (for more info about my background visit: <a href='https://andrewbarker.online' target='_blank'>andrewbarker.online</a> ), I wanted to take the project a step further by first designing within NextJS, utilizing React, Tailwind.CSS and Material UI (MUI) Components.
 
 This site design is a simple design focused around a fictional restaurant. Within this website is the restaurants Full Menu, New Item Menu, and a form for users to fill out in order to get themselves on the waitlist so that they do not have to wait at the restaurant for a table.
 
