@@ -1,15 +1,16 @@
 # Pitchfork Eatery
 
 ## Web Design Project for Maryville University SWDV 620
-### Project Overview: 
-This project was tasked during Week 2 of SWDV-620. Part of the Maryville University Master's Degree in Software Development. The original scope of the project was to design a site with three pages utilizing HTML & CSS. Due to my background in Web Design (for more info about my background visit: <a href='https://andrewbarker.online'target='_blank'>andrewbarker.online</a>), I wanted to take the project a step further by first designing within NextJS, utilizing React, Tailwind.CSS and Material UI (MUI) Components. 
 
-This site design is a simple design focused around a fictional restaurant. Within this website is the restaurants Full Menu, New Item Menu, and a form for users to fill out in order to get themselves on the waitlist so that they do not have to wait at the restaurant for a table. 
+### Project Overview:
+
+This project was tasked during Week 2 of SWDV-620. Part of the Maryville University Master's Degree in Software Development. The original scope of the project was to design a site with three pages utilizing HTML & CSS. Due to my background in Web Design (for more info about my background visit: <a href='https://andrewbarker.online'target='_blank'>andrewbarker.online</a> ), I wanted to take the project a step further by first designing within NextJS, utilizing React, Tailwind.CSS and Material UI (MUI) Components.
+
+This site design is a simple design focused around a fictional restaurant. Within this website is the restaurants Full Menu, New Item Menu, and a form for users to fill out in order to get themselves on the waitlist so that they do not have to wait at the restaurant for a table.
 
 ## Deployment
 
 Site can be found for preview by visiting:<a href = 'https://pitchfork-eatery.vercel.app/' target='_blank'>https://pitchfork-eatery.vercel.app</a>
-
 
 ## Image Usage Rights
 
@@ -26,4 +27,5 @@ Photos cannot be sold without significant modification.
 Compiling photos from Unsplash to replicate a similar or competing service.
 
 ## Site Logo
-Logo design design by: <a href='andrewbarker.online' target='_blank'>Andrew Barker</a>. 
+
+Logo design design by: <a href='andrewbarker.online' target='_blank'>Andrew Barker</a>.
