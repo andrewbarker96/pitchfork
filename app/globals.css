@@ -74,35 +74,38 @@ body {
   background: white;
   max-width: 100%;
   font-family: 'Jost', sans-serif;
-  font-size: 14px;
+  font-size: 1em;
   line-height: Auto;
 }
 
 h1{
   font-family: "Cheap Pine", sans-serif;
   font-style: normal;
-  font-size: 36px;
+  font-size: 3em;
 }
 
 h2{
-  font-family: 'Gin', sans-serif;
+  font-family: "Cheap Pine Sans", sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-size: 30px;
+  font-size: 2.5em;
+  line-height: normal;
 }
 
 h3{
   font-family: "Cheap Pine Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 26px;
+  font-size: 2em;
+  line-height: normal;
 }
 
 h4{
   font-family: "Cheap Pine Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
-
+  font-size: 24px;
+  line-height: normal;
 }
 
 .footer{
@@ -144,8 +147,8 @@ h4{
   justify-content: center;
   align-items: center;
   min-width:fill;
-  padding-left: 5%;
-  padding-right: 5%;
+  /* padding-left: 5%;
+  padding-right: 5%; */
 }
   
 @media (max-width: 600px) {
@@ -159,7 +162,7 @@ hr {
   border: 0;
   height: 1px;
   background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  background-image: linear-gradient(to right, #ccc, #333, #1b1a1a);
   margin-top: 2%;
   margin-bottom:2%;
 }
@@ -171,5 +174,10 @@ hr {
 }
 
 .menu-item{
-  padding:2%
+  padding:2.5%;
+}
+
+.menu-border{
+  border: 1.5px solid #060606;
+  padding: 2.5%;
 }

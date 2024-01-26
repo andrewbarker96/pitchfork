@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles'
 import { Grid } from '@mui/material'
 import { Box } from '@mui/system'
 import Paper from '@mui/material/Paper'
-import NewMenuItems from "@/components/new-menu-items"
+import NewMenuItems from "@/components/menu/new-menu-items"
 
 const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
@@ -20,8 +20,7 @@ export default function HomePage() {
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={1}>
           <h1>Whats New?</h1>
-          <NewMenuItems />
-          <Grid item xs={12} sm={12} md={4}>
+          <Grid item xs={12} sm={12} md={12}>
             <h2>Hours</h2>
             <Item>
               <p>Monday - Thursday</p>

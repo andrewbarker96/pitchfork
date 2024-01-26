@@ -15,7 +15,7 @@ const MenuItem: React.FC<MenuItemProps> = ({ title, description, price }) => (
   <Grid item xs={12} sm={12} md={4} className = 'menu-item'>
     <h2>{title}</h2>
     <p>{description}</p>
-    <h3>${price}</h3>
+    <h4>${price}</h4>
   </Grid>
 );
 
@@ -24,7 +24,6 @@ const FullMenu = () => {
     <Grid container spacing={2}>
       <Grid item xs={12}>
         <h1>Breakfast</h1>
-        <h4>(Served Daily from 7:00 am to 11:00 am)</h4>
         <Box className = 'menu-box'>          
           <MenuItem title="Multi-grain Pancakes" description="Start your day on a wholesome note with our Multi-grain Pancakes." price="9.99" />
           <MenuItem title="Whole Grain French Toast" description="Savor the goodness of whole grains with our Whole Grain French Toast." price="11.99" />
