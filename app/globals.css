@@ -80,6 +80,7 @@ body {
 
 h1{
   font-family: "cheap-pine", sans-serif;
+  font-weight:200;
   font-style: normal;
   font-size: 2.5em;
 }
@@ -146,7 +147,10 @@ h4{
 .newItemImage{
   justify-content: center;
   align-items: center;
-  min-width:stretch;
+  min-width:125px;
+  width:stretch;
+  max-width: 400px;
+
   /* padding-left: 5%;
   padding-right: 5%; */
 }
@@ -167,6 +171,8 @@ hr {
   margin-bottom:1%;
 }
 
+
+
 .menu-box{
   display: flex;
   flex-direction: row;
@@ -175,6 +181,9 @@ hr {
 
 .menu-item{
   padding:2.5%;
+  align-content: center;
+  justify-content: center;
+  text-align:justify;
 }
 
 .menu-border{
