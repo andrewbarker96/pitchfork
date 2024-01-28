@@ -18,8 +18,11 @@ const NavItems = () => {
             <ul className="md:flex flex-col lg:flex-row nav-item space-y-4 lg:space-y-0 lg:space-x-6 nav-item">
               <li><Link href='/'>Home</Link></li>
               <li><Link href='/menu'>Menu</Link></li>
-              {/* <li><Link href='/#'>Order Online</Link></li> */}
+              <li><Link href='/#'>Order Online</Link></li>
               <li><Link href='/waitlist'>Get in Line</Link></li>
+              <li><Link href='/#contact'>Contact Us</Link></li>
+              <li><Link href='/#locations'>Locations</Link></li>
+              <li><Link href='/#hours'>Hours</Link></li>
             </ul>
           </div>
         </div>

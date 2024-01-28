@@ -7,7 +7,7 @@ const buttonTheme = createTheme({
       main: '#000000',
     },
     secondary: {
-      main: '#060606',
+      main: '#ffffff',
     },
     success: {
       main: '#ADD8E6',
