@@ -27,6 +27,8 @@ const FullMenu = () => {
         <Box className = 'menu-box'>          
           <MenuItem title="Multi-grain Pancakes" description="Start your day on a wholesome note with our Multi-grain Pancakes." price="9.99" />
           <MenuItem title="Whole Grain French Toast" description="Savor the goodness of whole grains with our Whole Grain French Toast." price="11.99" />
+          <MenuItem title="Traditional" description="Two eggs, bacon or sausage, and fresh baked sourdough toast." price="9.99" />
+          <MenuItem title="Avocado Toast" description="Fresh avocado, cherry tomatoes, and a sunny-side-up egg on toasted sourdough." price="12.99" />
         </Box>
         <hr />
         <h1>Starters</h1>

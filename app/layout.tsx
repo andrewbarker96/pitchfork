@@ -3,7 +3,7 @@
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import { Metadata } from 'next'
-import { Navbar } from '../components/navigation/nav'
+import { Navbar } from '../components/navigation/top-nav'
 import Footer from '../components/navigation/footer'
 import './globals.css'
 

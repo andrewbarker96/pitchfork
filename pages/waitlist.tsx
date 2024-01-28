@@ -32,13 +32,13 @@ const Reservations = () => {
         <Grid container spacing={2}>
           <Grid item xs={12} sm={12} md={12}>
             <h1>Current Wait Time</h1>
-            <div className='flex gap-x-3 content-center'>
+            <div className='flex gap-x-3 items-center'>
               <AccessTimeIcon />
-              <h2>{time} minutes</h2>
+              <h3>{time} minutes</h3>
             </div>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <h1>Jump in Line Now!</h1>
+            <h2>Jump in Line Now!</h2>
             <p>Get your name on the list and skip the line!</p>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>

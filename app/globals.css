@@ -79,13 +79,13 @@ body {
 }
 
 h1{
-  font-family: "Cheap Pine", sans-serif;
+  font-family: "cheap-pine", sans-serif;
   font-style: normal;
   font-size: 3em;
 }
 
 h2{
-  font-family: "Cheap Pine Sans", sans-serif;
+  font-family: "cheap-pine-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2.5em;
@@ -93,7 +93,7 @@ h2{
 }
 
 h3{
-  font-family: "Cheap Pine Sans", sans-serif;
+  font-family: "cheap-pine-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
@@ -101,7 +101,7 @@ h3{
 }
 
 h4{
-  font-family: "Cheap Pine Sans", sans-serif;
+  font-family: "cheap-pine-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
@@ -146,7 +146,7 @@ h4{
 .newItemImage{
   justify-content: center;
   align-items: center;
-  min-width:fill;
+  min-width:stretch;
   /* padding-left: 5%;
   padding-right: 5%; */
 }
