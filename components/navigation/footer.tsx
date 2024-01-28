@@ -20,7 +20,7 @@ const FooterLinkItem: React.FC<{ links: { href: string; text: string }[] }> = ({
         <Grid container spacing={2} className='footer'>
           <FooterLinkItem links={[
             { href: "/menu", text: "Menu" },
-            { href: "/contact", text: "Contact Us" },
+            { href: "/#contact", text: "Contact Us" },
             { href: "/waitlist", text: "Join the Waitlist" },
           ]} />
           <FooterLinkItem links={[
