@@ -12,7 +12,7 @@ interface MenuItemProps {
 }
 
 const MenuItem: React.FC<MenuItemProps> = ({ title, description, price }) => (
-  <Grid item xs={12} sm={12} md={4} className = 'menu-item'>
+  <Grid item xs={12} sm={6} md={4} className = 'menu-item'>
     <h2>{title}</h2>
     <p>{description}</p>
     <h4>${price}</h4>
