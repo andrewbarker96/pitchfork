@@ -13,15 +13,21 @@ interface NewMenuItemProps {
 const NewMenuItem: React.FC<NewMenuItemProps> = ({ title, desc, price, imgSrc }) => (
   <>
     <Grid item xs={12} sm={6} md={4} className='menu-item'>
-      <Item>
-        <h2>{title}</h2>
-        <p>{desc}</p>
-        <h4>${price}</h4>
-        <br />
-      </Item>
-      <Item>
-        <img src={imgSrc} alt={title} className='newItemImage'/>
-      </Item>
+      <Box className='flex'>
+        <Grid item xs={12} sm={6} md={8} className='menu-item'>
+        <Item>
+          <h2>{title}</h2>
+          <p>{desc}</p>
+          <h4>${price}</h4>
+          <br />
+        </Item>
+        </Grid>
+        <Grid item xs={12} sm={6} md={4} className='menu-item'>
+        <Item>
+          <img src={imgSrc} alt={title} className='newItemImage'/>
+        </Item>
+        </Grid>
+      </Box>
     </Grid>
   </>
 );
