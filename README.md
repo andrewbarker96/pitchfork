@@ -1,6 +1,6 @@
 # Pitchfork Eatery
-
 ## Web Design Project for Maryville University SWDV 620
+
 
 ### Project Overview:
 
@@ -10,9 +10,11 @@ The original scope of the project was to design a site with three pages utilizin
 
 This site design is a simple design focused around a fictional restaurant. Within this website is the restaurants Full Menu, New Item Menu, and a form for users to fill out in order to get themselves on the waitlist so that they do not have to wait at the restaurant for a table.
 
+
 ## Deployment
 
 Site can be found for preview by visiting: <a href = 'https://pitchfork-eatery.vercel.app/' target='_blank'>pitchfork-eatery.vercel.app</a>
+
 
 ## Image Usage Rights
 
@@ -22,12 +24,13 @@ All Images collected and published on this site were done so through <a href='ht
 
 All photos can be downloaded and used for free.
 Commercial and non-commercial purposes
-No permission needed (though attribution is appreciated!)
+No permission needed.
 
-What is not permitted 👎
+What is not permitted:
 Photos cannot be sold without significant modification.
 Compiling photos from Unsplash to replicate a similar or competing service.
 
+
 ## Site Logo
 
-Logo design design by: <a href='andrewbarker.online' target='_blank'>Andrew Barker</a>.
+Logo design by myself: <a href='andrewbarker.online' target='_blank'>Andrew Barker</a>.
