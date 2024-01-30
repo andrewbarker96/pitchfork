@@ -32,8 +32,10 @@ export default function HomeSlider() {
         <Grid container spacing={2} className ='home-container flex justify-center'>
           <Grid item xs={12} sm={12} md={12}>
             <Item className = 'flex justify-center'>
-                <img src='PitchforkHome.png' alt='Pitchfork Eatery' style={{width:'500px'}}/>
-            </Item>
+                    <Link href="/#">
+                      <img src='PitchforkHome.png' alt='Pitchfork Eatery' style={{width:'500px'}}/>
+                    </Link>
+                </Item>
           </Grid>
           <br />
           <Grid item xs={12} sm={12} md={12} className='flex flex-wrap gap-4 justify-center' style={{marginTop:'5%'}}>
