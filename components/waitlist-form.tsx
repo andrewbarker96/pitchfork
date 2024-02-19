@@ -6,6 +6,7 @@ import { TextField } from '@mui/material';
 import { Grid } from '@mui/material';
 import { Box } from '@mui/system';
 import { createClient } from '@supabase/supabase-js';
+import WaitlistCounter from './waitlist-counter';
 import Link from 'next/link';
 import PitchforkButton from './button';
 
