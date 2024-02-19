@@ -1,20 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import RootLayout from '@/app/layout'
-import ReservationForm from '@/components/reservation-form'
+import WaitlistForm from '@/components/waitlist'
 import Link from 'next/link'
-import { styled } from '@mui/material/styles'
 import { Grid } from '@mui/material'
 import { Box } from '@mui/system'
-import Paper from '@mui/material/Paper'
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'left',
-  color: theme.palette.text.secondary,
-  boxShadow: 'none',
-}));
 
 const Reservations = () => {
   const [time, setTime] = useState(0);
@@ -42,7 +32,12 @@ const Reservations = () => {
             <p>Get your name on the list and skip the line!</p>
           </Grid>
           <Grid item xs={12} sm={12} md={12}>
-            <ReservationForm />
+            <WaitlistForm />
+          </Grid>
+          <Grid item xs={12} sm={12} md={12}>
+            {/* <button className='bg-black text-white p-2 rounded-md'>
+              <Link href='/waitlist-admin'>View Waitlist</Link>
+            </button> */}
           </Grid>
         </Grid>
       </Box>

@@ -34,3 +34,6 @@ Compiling photos from Unsplash to replicate a similar or competing service.
 ## Site Logo
 
 Logo design by myself: <a href='andrewbarker.online' target='_blank'>Andrew Barker</a>.
+
+## Waitlist
+To test the waitlist fill out the form. To see the Internal wait list visit [/waitlist-admin](https://pitchfork-eatery.vercel.app/waitlist-admin)

@@ -4,7 +4,6 @@ import { Grid } from '@mui/material'
 import Item from '@mui/material/Grid';
 import { Box } from '@mui/system'
 import Link from "next/link";
-
 import { StaticImageData } from 'next/image' // Import the StaticImageData type
 import PitchforkButton from "../button"
 import { Home } from "@mui/icons-material";
