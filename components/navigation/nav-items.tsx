@@ -20,9 +20,9 @@ const NavItems = () => {
               <li><Link href='/menu'>Menu</Link></li>
               <li><Link href='/#'>Order Online</Link></li>
               <li><Link href='/waitlist'>Get in Line</Link></li>
-              <li><Link href='/#contact'>Contact Us</Link></li>
+              {/* <li><Link href='/#contact'>Contact Us</Link></li>
               <li><Link href='/#locations'>Locations</Link></li>
-              <li><Link href='/#hours'>Hours</Link></li>
+              <li><Link href='/#hours'>Hours</Link></li> */}
             </ul>
           </div>
         </div>

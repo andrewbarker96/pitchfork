@@ -14,11 +14,16 @@
 }
 
 .home {
-  padding-top: 2%;
-  padding-bottom: 50px;
-  margin-right: 5%;
-  margin-left: 5%;
-  justify-content: center;
+  margin-top:2.5%;
+  margin-bottom:2.5%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.home-slider{
+  background-color: #060606;
+  padding:2.5%;
+  min-width: 100%;
 }
 
 .navbar {
@@ -64,7 +69,6 @@ body {
   max-width: 100%;
   font-family: 'Jost', sans-serif;
   font-size: 1em;
-  line-height: Auto;
 }
 
 h1{
@@ -168,12 +172,6 @@ hr {
 .menu-border{
   border: 1.5px solid #060606;
   padding: 2.5%;
-}
-
-.home-container{
-  background-color: #060606;
-  padding-top:5%;
-  margin-bottom: 5%;
 }
 
 

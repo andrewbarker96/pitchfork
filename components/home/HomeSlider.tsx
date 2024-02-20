@@ -2,9 +2,7 @@ import React from "react"
 import { styled } from '@mui/material/styles'
 import { Grid } from '@mui/material'
 import Item from '@mui/material/Grid';
-import { Box } from '@mui/system'
 import Link from "next/link";
-import { StaticImageData } from 'next/image' // Import the StaticImageData type
 import PitchforkButton from "../button"
 import { Home } from "@mui/icons-material";
 
@@ -27,26 +25,24 @@ const HomeButtons: React.FC<HomeButtonProps> = ({ title, src }) => (
 
 export default function HomeSlider() {
     return (
-      <>
-        <Grid container spacing={2} className ='home-container flex justify-center'>
-          <Grid item xs={12} sm={12} md={12}>
-            <Item className = 'flex justify-center'>
-                    <Link href="/#">
-                      <img src='PitchforkHome.png' alt='Pitchfork Eatery' style={{width:'500px'}}/>
-                    </Link>
-                </Item>
-          </Grid>
-          <br />
-          <Grid item xs={12} sm={12} md={12} className='flex flex-wrap gap-4 justify-center' style={{marginTop:'5%'}}>
-            <HomeButtons title="Seasonal Items" src="/menu#new-items" />
-            <HomeButtons title="Menu" src="/menu#full-menu" />
-            <HomeButtons title="Order Online" src="/#" />
-            <HomeButtons title="Get In Line" src="/waitlist" />
-            <HomeButtons title="Contact Us" src="/#contact" />
-            <HomeButtons title="Locations" src="/#locations" />
-            <HomeButtons title="Hours" src="/#hours" />
-          </Grid>
-        </Grid>
-      </>
+    <Grid container spacing={2} className ='home-slider'>
+      <Grid item xs={12} sm={12} md={12}>
+        <Item className = 'flex justify-center'>
+          <Link href="/#">
+            <img src='PitchforkHome.png' alt='Pitchfork Eatery' style={{width:'500px'}}/>
+          </Link>
+        </Item>
+      </Grid>
+      <br />
+      <Grid item xs={12} sm={12} md={12} className='flex flex-wrap gap-6 justify-center' style={{marginTop:'2.5%', marginBottom:'2.5%'}}>
+        <HomeButtons title="Menu" src="/menu#full-menu" />
+        <HomeButtons title="Seasonal Items" src="/menu#new-items" />
+        <HomeButtons title="Order Online" src="#" />
+        <HomeButtons title="Join the Waitlist" src="/waitlist" />
+        {/* <HomeButtons title="Contact Us" src="/#contact" />
+        <HomeButtons title="Locations" src="/#locations" />
+        <HomeButtons title="Hours" src="/#hours" /> */}
+      </Grid>
+    </Grid>
     )
   }
