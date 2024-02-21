@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import { createClient } from '@supabase/supabase-js';
 import Image from 'next/image';
 import { DataGrid } from '@mui/x-data-grid';
-import { WidthFull } from '@mui/icons-material';
 
 
 const supabase = createClient(process.env.NEXT_PUBLIC_SUPABASE_URL!, process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!);

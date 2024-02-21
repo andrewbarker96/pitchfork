@@ -1,7 +1,6 @@
 'use client'
 
 import { useState } from 'react'
-import Link from 'next/link'
 import PitchforkLogo from '../logo'
 import { NavItems } from './nav-items'
 
