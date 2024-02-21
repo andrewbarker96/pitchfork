@@ -4,7 +4,6 @@ import { Grid } from '@mui/material'
 import Item from '@mui/material/Grid';
 import Link from "next/link";
 import PitchforkButton from "../button"
-import { Home } from "@mui/icons-material";
 
 const BlackButton = styled(PitchforkButton)`
   background-color: black;
