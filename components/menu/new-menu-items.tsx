@@ -16,7 +16,7 @@ const NewMenuItem: React.FC<NewMenuItemProps> = ({ title, desc, price, imgSrc })
       <Box className='md:flex sm:flex'>
         <Grid item xs={12} sm={8} md={8} className='menu-item'>
           <Item>
-            <h2>{title}</h2>
+            <h3>{title}</h3>
             <p>{desc}</p>
             <h4>${price}</h4>
           </Item>

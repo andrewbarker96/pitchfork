@@ -75,7 +75,7 @@ h1{
   font-family: "cheap-pine", sans-serif;
   font-weight:200;
   font-style: normal;
-  font-size: 2.5em;
+  font-size: 2.25em;
 }
 
 h2{
@@ -90,7 +90,7 @@ h3{
   font-family: "cheap-pine-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 2em;
+  font-size: 1.65em;
   line-height: normal;
 }
 
@@ -98,8 +98,17 @@ h4{
   font-family: "cheap-pine-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 1.35em;
   line-height: normal;
+}
+
+h5{
+  font-family: 'Jost', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.15em;
+  line-height: normal;
+  margin-bottom: .5em;
 }
 
 .footer{
@@ -161,12 +170,12 @@ hr {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-}
+  }
 
 .menu-item{
-  padding:3%;
+  padding:1em .5em 1em .5em;
   align-content: center;
-  text-align:justify;
+  /* text-align:justify; */
 }
 
 .menu-border{
@@ -180,13 +189,6 @@ hr {
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
-  }
-}
-
-@media (max-width: 600px) {
-  .newItemImage {
-    padding-left: 10%;
-    padding-right: 10%;
   }
 }
 
@@ -207,4 +209,14 @@ hr {
     font-size: 16px;
     line-height: auto;
   }
+  .newItemImage {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .menu-item{
+    padding:1em .75em 2em .75em;
+    align-content: center;
+    /* text-align:justify; */
+  }
 }
+
