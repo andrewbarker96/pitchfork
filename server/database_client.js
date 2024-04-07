@@ -81,7 +81,6 @@ class Supabase {
 
 run = async () => {
     const supabase = new Supabase();
-    await supabase.addItemsToDatabase();
     await supabase.getItems();
 }
 
